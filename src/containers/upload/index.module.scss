@@ -1,0 +1,85 @@
+.preview {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+}
+.uploadBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 150px;
+  border: 2px solid #e8e8e8;
+}
+
+.uploadContainer {
+  padding: 60px 30px 30px 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.dragBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80%;
+  border: dashed 2px #e8e8e8;
+}
+
+.showImage {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.none {
+  display: none;
+}
+
+.selectImagesDiv {
+  display: flex;
+  align-items: center;
+}
+
+.uploadHistoryDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.uploadUrlDiv {
+  border: solid 2px #e8e8e8;
+  padding: 5px;
+  width: 60%;
+}
+
+.lookImageBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.lookImageDiv {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lookImage {
+  transform: scale(0);
+  transition: all 1s ease-in-out;
+  width: 200px;
+  height: 200px;
+  top: 45%;
+  left: 45%;
+  position: absolute;
+}
+
+.imgScale {
+  transform: scale(1);
+}
