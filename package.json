@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/koa": "^2.0.48",
     "@types/node": "^10.12.18",
-    "axios": "^0.18.0",
+    "axios": "^1.6.3",
     "koa": "^2.6.2",
     "koa-cors": "^0.0.16",
     "koa-multer": "^1.0.2",
